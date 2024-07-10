@@ -10,3 +10,7 @@ yes | sudo apt install docker-ce=5:18.09.6~3-0~ubuntu-bionic
 # hold version
 sudo apt-mark hold docker-ce
 sudo usermod -aG docker $USER
+
+
+# curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
+# sudo add-apt-repository  "deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/linux/ubuntu $(lsb_release -cs) stable"
